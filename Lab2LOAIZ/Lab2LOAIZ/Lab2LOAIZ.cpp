@@ -60,12 +60,12 @@ int main()
 
 	clock_t start, end;
 
-	const int SIZE = 10000;
+	const int SIZE = 100000;
 	int mass[SIZE];
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		mass[i] = rand() % 100 + 1;
+		mass[i] = i;
 	}
 
 	start = clock();
