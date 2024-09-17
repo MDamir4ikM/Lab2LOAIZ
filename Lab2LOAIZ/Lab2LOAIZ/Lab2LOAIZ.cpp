@@ -62,10 +62,12 @@ int main()
 
 	const int SIZE = 100000;
 	int mass[SIZE];
+	int ubiv = SIZE;
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		mass[i] = i;
+		mass[i] = ubiv;
+		ubiv--;
 	}
 
 	start = clock();
